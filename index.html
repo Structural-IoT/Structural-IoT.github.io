@@ -12,22 +12,29 @@
       align-items: center;
       text-align: center;
       font-family: Arial, sans-serif;
-      background-color: #f5f7fa;
+      background-image: url('background.jpg'); 
+      background-size: cover; /* fills the entire page */
+      background-position: center; /* centers the image */
+      background-repeat: no-repeat; /* no tiling */
+      color: #fff; /* make text readable if image is dark */
       padding: 20px;
     }
     h1 {
-      color: #1a1a1a;
+      color: #fff;
       margin-bottom: 10px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     }
     p {
-      color: #444;
+      color: #f0f0f0;
       font-size: 1.1em;
       max-width: 700px;
       line-height: 1.6;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
     a {
-      color: #0066cc;
+      color: #ffd700;
       text-decoration: none;
+      font-weight: bold;
     }
     a:hover {
       text-decoration: underline;
